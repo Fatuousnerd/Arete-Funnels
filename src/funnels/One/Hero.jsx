@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <>
-            <div className='lg:h-screen w-screen bg-[url(./pic2.jpg)] object-cover lg:p-[100px] pb-[20px] relative'>
+            <div className='lg:h-screen w-screen bg-[url(/pic2.jpg)] object-cover lg:p-[100px] pb-[20px] relative'>
                 <div className="flex absolute top-[25px] left-[50px] items-center">
                     <img src="./vite.svg" alt="Logo" />
                     <h1 className='text-3xl font-bold text-white ml-2'>Arete Funnels</h1>
