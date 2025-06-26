@@ -8,14 +8,14 @@ const Footer = () => {
                     <h2 className='font-extrabold text-[5.5rem] leading-[5.5rem] md:text-[10rem] md:leading-[10rem] lg:text-[5.5rem] lg:leading-[5.5rem] '>Ready to see a change?</h2>
                     <div className="flex flex-wrap items-start gap-[20px] mt-[30px]">
                         <div className="flex flex-col md:text-[2rem] lg:text-2xl"> 
-                            <p>Jari Maureen</p>
+                            <p>Ares</p>
                             <p>123 Anywhere St.</p>
                             <p>Any City, ST 12345</p>
                         </div>
                         <div className="flex flex-col md:text-[2rem] lg:text-2xl">
                             <p>Tel. (123) 456-7890</p>
-                            <p>Email: hello@reallygreatsite.com</p>
-                            <p>Social: @reallygreatsite</p>
+                            <p>Email: hello@ares.com</p>
+                            <p>Social: @ares</p>
                         </div>
                     </div>
                 </div>

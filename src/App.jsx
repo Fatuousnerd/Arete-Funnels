@@ -3,7 +3,7 @@ import ThemeProvider from "./utils/ThemeContext";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import './index.css';
-import One from "./funnels/One/One";
+import Ares from "./funnels/Ares/Ares";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/one" element={<One />} />
+            <Route path="/Ares" element={<Ares />} />
           </Routes>
         </Router>
       </ThemeProvider>

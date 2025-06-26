@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const Portfolio = [
   {
     id: 1,
-    img: "/pic1.jpg",
-    title: "One",
-    desc: "Lose the weight and gain the confidence with Jari Maureen.",
-    tags: "Health, Nutrition, Fitness",
-    lnk: "/one"
+        img: "/pic1.jpg",
+        title: "Ares | Lead Capture",
+        desc: "Build trust while you sleep.",
+        tags: "Meal Plans, eBooks, Guides",
+        lnk: "/Ares"
   },
   // {
   //   id: 2,
