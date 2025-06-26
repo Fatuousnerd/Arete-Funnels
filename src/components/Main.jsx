@@ -6,27 +6,27 @@ const Portfolio = [
   {
     id: 1,
     img: "/pic1.jpg",
-    title: "Peperomia Plants",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas accusamus.",
-    tags: "Health, Finance, Nutrition, Fitness",
+    title: "One",
+    desc: "Lose the weight and gain the confidence with Jari Maureen.",
+    tags: "Health, Nutrition, Fitness",
     lnk: "/one"
   },
-  {
-    id: 2,
-    img: "/pic1.jpg",
-    title: "Peperomia Plants",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas accusamus.",
-    tags: "Health, Finance, Nutrition, Fitness",
-    lnk: "https://areteco.agency/"
-  },
-  {
-    id: 3,
-    img: "/pic1.jpg",
-    title: "Peperomia Plants",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas accusamus.",
-    tags: "Health, Nutrition, Fitness",
-    lnk: "https://areteco.agency/"
-  },
+  // {
+  //   id: 2,
+  //   img: "/pic1.jpg",
+  //   title: "Peperomia Plants",
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas accusamus.",
+  //   tags: "Health, Finance, Nutrition, Fitness",
+  //   lnk: "https://areteco.agency/"
+  // },
+  // {
+  //   id: 3,
+  //   img: "/pic1.jpg",
+  //   title: "Peperomia Plants",
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas accusamus.",
+  //   tags: "Health, Nutrition, Fitness",
+  //   lnk: "https://areteco.agency/"
+  // },
 ];
 
 const Main = () => {
