@@ -11,7 +11,7 @@ import './funnel.css'
 const One = () => {
     
     useEffect(() => {
-        document.title = "Arete Funnels - Funnel One";
+        document.title = "Arete Funnels - Ares";
     }, []);
 
     return (

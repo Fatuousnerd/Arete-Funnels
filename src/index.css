@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 :root {
-  --MainBgColorLight: #F4EDE4;
-  --MainTextColorLight: #5C3B28;
-  --SecBgColorLight: #EADFD2;
-  --SecTextColorLight: #8C7056;
-  --HTextColorLight: #C89C7C;
-  --ContrastTextColorLight: #FFFFFF;
-
   --DarkBgColor: #2c1f14;
   --DarkTextColor: #F4EDE4;
   --SecDarkBgColor: #3F2F23;
@@ -18,17 +11,7 @@
   --ContrastDarkTextColor: #FFFFFF;
 }
 
-
-body.light {
-  --MainBgColor: var(--MainBgColorLight);
-  --MainTextColor: var(--MainTextColorLight);
-  --SecBgColor: var(--SecBgColorLight);
-  --SecTextColor: var(--MainTextColorLight);
-  --HTextColor: var(--HTextColorLight);
-  --ContrastTextColor: var(--ContrastTextColorLight);
-}
-
-body.dark {
+body {
   --MainBgColor: var(--DarkBgColor);
   --MainTextColor: var(--DarkTextColor);
   --SecBgColor: var(--SecDarkBgColor);
