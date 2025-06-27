@@ -55,7 +55,7 @@ const Main = () => {
               </div>
               <p className='font-light text-opacity-75 '>{port.desc}</p>
               <div className="flex w-full items-center justify-between">
-                <Link to="https://areteco.agency/form" style={{ fontWeight: "700" }} className='text-[--SecTextColor] font-bold border-solid border-[2px] border-[--SecTextColor] rounded-lg p-2 hover:bg-[--SecTextColor] hover:text-[--MainTextColor]  '>Get {port.name}</Link>
+                <Link to="/form" style={{ fontWeight: "700" }} className='text-[--SecTextColor] font-bold border-solid border-[2px] border-[--SecTextColor] rounded-lg p-2 hover:bg-[--SecTextColor] hover:text-[--MainTextColor]  '>Get {port.name}</Link>
                 <Link to={port.lnk} style={{ fontWeight: "700" }} className='p-2 bg-[--MainBgColor] shadow-lg rounded-full flex items-center justify-center hover:shadow-2xl hover:scale-[1.05] transition duration-300 '><ArrowOutward /></Link>
               </div>
             </div>
