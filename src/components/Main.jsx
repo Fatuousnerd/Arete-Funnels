@@ -19,7 +19,7 @@ const Portfolio = [
     name: "Athens",
     title: "Athens | Lead Capture",
     desc: "Whether you're giving away recipes or a grocery guide, Athens captures your audience at the peak of curiosity and drives them toward your offer - one lead at a time.",
-    tags: "Mom Coach, Meal Plans, Nutrition, eBooks",
+    tags: "Mom Coach, Meal Plans, Nutrition",
     lnk: "/Athens"
   },
   // {
@@ -46,7 +46,7 @@ const Main = () => {
       <Navbar />
       <div className="flex flex-wrap gap-[50px] items-center justify-start md:justify-center relative top-[70px] min-h-screen w-screen p-[25px] lg:p-[50px] ">
         {Portfolio.map((port) => (
-          <div className="flex flex-col items-start justify-between w-[375px] h-[475px] bg-[--SecBgColor] text-[--MainTextColor] bg-opacity-75 backdrop-blur-3xl rounded-[20px] shadow-lg p-3 pb-4" key={port.id}>
+          <div className="flex flex-col items-start justify-between w-[375px] h-[500px] bg-[--SecBgColor] text-[--MainTextColor] bg-opacity-75 backdrop-blur-3xl rounded-[20px] shadow-lg p-3 pb-4" key={port.id}>
             <img src={port.img} alt="" className='h-[200px] w-full object-cover rounded-[10px] mb-4 ' />
             <div className="flex flex-col justify-between h-full w-full">
               <div className="flex flex-col">

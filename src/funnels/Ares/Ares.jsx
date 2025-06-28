@@ -1,30 +1,18 @@
-import { useEffect } from 'react'
-import About from './About'
-import Footer from './Footer'
-import Hero from './Hero'
-import OfferOne from './OfferOne'
-import OfferTwo from './OfferTwo'
-import Services from './Services'
-import Testimonials from './Testimonials'
-import './funnel.css'
+import React from 'react'
+import DemoNav from '../../components/DemoNav'
 
-const One = () => {
-    
-    useEffect(() => {
-        document.title = "Arete Funnels - Ares";
-    }, []);
-
+const About = () => {
     return (
         <>
-            <Hero />
-            <About />
-            <Services />
-            <OfferOne />
-            <OfferTwo />
-            <Testimonials />
-            <Footer />
+            <DemoNav />
+            <div className="h-[calc(100vh-70px)] w-screen flex items-center justify-center relative top-[70px]">
+                <div className="w-[90%] lg:w-[95%] h-[95%] flex items-center justify-center overflow-hidden rounded-lg border-solid border-[2px] border-[--MainTextColor] shadow-lg ">
+                    <div className="absolute border-solid border-[5px] border-[--MainTextColor] border-t-transparent rounded-full h-[50px] w-[50px] animate-spin z-[-1] "></div>
+                    <iframe src="https://ares.areteco.agency" frameborder="0" className="w-full h-full"></iframe>
+                </div>
+            </div>
         </>
     )
 }
 
-export default One
+export default About

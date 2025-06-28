@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Link to="https://areteco.agency/" className="text-3xl font-extrabold text-[--SecTextColor] hover:text-[--MainTextColor]">Arete Co</Link>
                 <div className="flex gap-[25px]">
                     <Link to="https://areteco.agency/#services" className='hover:text-[--HTextColor]'>Services</Link>
-                    <Link to="https://areteco.agency/#portfolio" className='hover:text-[--HTextColor]'>Portfolio</Link>
+                    <Link to="/" className='hover:text-[--HTextColor]'>Portfolio</Link>
                     <Link to="https://areteco.agency/#about" className='hover:text-[--HTextColor]'>About</Link>
                     {/* <Link to="https://areteco.agency/#" className='hover:text-[--HTextColor]'>Work</Link> */}
                     <Link to="https://areteco.agency/#contact" className='hover:text-[--HTextColor]'>Contact</Link>
