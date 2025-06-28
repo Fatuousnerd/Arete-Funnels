@@ -1,4 +1,5 @@
 import Main from "./components/Main";
+import Form from "./components/Form";
 import ThemeProvider from "./utils/ThemeContext";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -13,6 +14,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/form" element={<Form />} />
             <Route path="/Ares" element={<Ares />} />
             <Route path="/Athens" element={<Athens />} />
           </Routes>

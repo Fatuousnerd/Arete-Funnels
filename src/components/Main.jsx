@@ -8,7 +8,7 @@ const Portfolio = [
     id: 1,
     img: "/Ares.png",
     name: "Ares",
-    title: "Ares | Lead Capture",
+    title: "Ares | Weight Loss",
     desc: "Let your funnel work while you train. Ares' lead capture system helps coaches collect emails, build trust, and nurture prospects - without needing to DM everyone manually.",
     tags: "Meal Plans, eBooks, Guides, Training",
     lnk: "/Ares"
@@ -17,7 +17,7 @@ const Portfolio = [
     id: 2,
     img: "/Athens.png",
     name: "Athens",
-    title: "Athens | Lead Capture",
+    title: "Athens | Mom Coach",
     desc: "Whether you're giving away recipes or a grocery guide, Athens captures your audience at the peak of curiosity and drives them toward your offer - one lead at a time.",
     tags: "Mom Coach, Meal Plans, Nutrition",
     lnk: "/Athens"
