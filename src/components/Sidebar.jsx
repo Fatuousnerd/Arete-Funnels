@@ -13,7 +13,7 @@ const Sidebar = () => {
                 <div className='flex flex-col lg:hidden h-screen w-[300px] fixed z-[98] bg-[#2c1f14] bg-opacity-75 backdrop-blur-lg p-[75px] pt-[100px] gap-[40px] text-4xl '>
                     <Link to="https://areteco.agency/" className='hover:text-[--HTextColor]'>Home</Link>
                     <Link to="https://areteco.agency/#services" className='hover:text-[--HTextColor]'>Services</Link>
-                    <Link to="https://areteco.agency/#portfolio" className='hover:text-[--HTextColor]'>Portfolio</Link>
+                    <Link to="https://portfolio.areteco.agency/" className='hover:text-[--HTextColor]'>Portfolio</Link>
                     <Link to="https://areteco.agency/#about" className='hover:text-[--HTextColor]'>About</Link>
                     {/* <Link to="https://areteco.agency/#" className='hover:text-[--HTextColor]'>Work</Link> */}
                     <Link to="https://areteco.agency/#contact" className='hover:text-[--HTextColor]'>Contact</Link>
